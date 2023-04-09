@@ -27,7 +27,7 @@ const Home = () => {
             <section className='text-center mt-5'>
             <h2>Job Category List</h2>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                <div className='row row-cols-auto sm:g-2 '>
+                <div className='row row-cols-auto sm:g-2 mt-5 '>
                     {
                         JobCatagories.map(JobCategory => <SingleCategory
                         key={JobCategory.id}
