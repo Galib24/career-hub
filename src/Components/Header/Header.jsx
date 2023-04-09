@@ -25,16 +25,16 @@ const Header = () => {
 
 
                         </Nav>
-                        <Form className="d-flex flex-columns">
+                        <Form className="d-flex flex-row">
                             <nav>
                                 <Link to='/'>Home</Link>
                                 <Link to='/statistics'>Statistics</Link>
                                 <Link to='/appliedJobs'>Applied Jobs</Link>
                                 <Link to='/blog'>Blog</Link>
                             </nav>
-                            <div>
+                            <div className='row'>
 
-                        <Button className='bg-success'>Apply here</Button>
+                        <Button style={{backgroundColor: '#7E90FE'}}>Apply here</Button>
                             </div>
 
                         </Form>
