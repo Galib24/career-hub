@@ -1,0 +1,13 @@
+nav a{
+    margin-right: 40px;
+    font-size: 18px;
+    color: black;
+    
+}
+nav a:hover{
+background-color: #7E90FE;
+color: white;
+transition: all 500ms ease;
+border-radius: 5px;
+
+}
