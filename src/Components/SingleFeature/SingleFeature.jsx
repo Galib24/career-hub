@@ -42,7 +42,7 @@ const SingleFeature = ({ feature }) => {
                                     <Card.Text>{salary}
                                     </Card.Text>
                                 </div>
-                                <Button onClick={()=>navigate('viewDetails')} style={{ backgroundColor: '#7E90FE',marginTop: '20px' }}>View Details</Button>
+                                <Button onClick={()=>navigate(`viewDetails/${id}`)} style={{ backgroundColor: '#7E90FE',marginTop: '20px' }}>View Details</Button>
                             </Card.Body>
                         </Card>
                     </Col>
