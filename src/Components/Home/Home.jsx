@@ -13,7 +13,7 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setFeatures(data))
     }, [])
-    
+
 
 
 
@@ -29,7 +29,7 @@ const Home = () => {
                         <button style={{ backgroundColor: '#7E90FE' }}>Get Started</button>
                     </div>
                     <div className='row col-md-6'>
-                        <img className='img-fluid' src="../../../public/All Images/P3OLGJ1 copy 1.png" alt="" />
+                        <img className='img-fluid' src="https://i.ibb.co/ssfj3Fz/P3-OLGJ1-copy-1.png" alt="" />
                     </div>
                 </section>
 
@@ -50,19 +50,22 @@ const Home = () => {
                         }
                     </div>
                 </section>
-
+                <section className='text-center mt-5'>
+                    <h2>Job Category List</h2>
+                    <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                </section>
                 {/* third section */}
                 <section>
-<div className=' row row-cols-2 mt-5'>
-{
-    features.map(feature => <SingleFeature
-    key={feature.id}
-    feature={feature}
-    >
+                    <div className=' row row-cols-2 mt-5'>
+                        {
+                            features.map(feature => <SingleFeature
+                                key={feature.id}
+                                feature={feature}
+                            >
 
-    </SingleFeature>)
-}
-</div>
+                            </SingleFeature>)
+                        }
+                    </div>
                 </section>
 
 

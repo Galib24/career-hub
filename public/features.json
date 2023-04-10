@@ -5,7 +5,10 @@
       "company": "Google LLC",
       "location": "Dhaka, Bangladesh",
       "salary": "100K - 150K",
-      "image": "../public/Logo/google-1-1 1-1.png"
+      "workPlace": "Remote",
+      "time": "Fulltime",
+      "image": "https://i.ibb.co/vZ2kbkg/google-1-1-1-1.png"
+      
     },
     {
       "id": 2,
@@ -13,7 +16,9 @@
       "company": "Netflix",
       "location": "Dhaka, Bangladesh",
       "salary": " 100K - 150K",
-      "image": "../public/Logo/netflix-4 1.png"
+      "workPlace": "Onsite",
+      "time": "Full Time",
+      "image": "https://i.ibb.co/Fb6wThz/netflix-4-1.png"
     },
     {
       "id": 3,
@@ -21,7 +26,9 @@
       "company": "Tesla",
       "location": "Dhaka, Bangladesh",
       "salary": "100K - 150K",
-      "image": "../public/Logo/tesla-9 1.png"
+      "workPlace": "Onsite",
+      "time": "Full Time",
+      "image": "https://i.ibb.co/0fZ8Mgn/tesla-9-1.png"
     },
     {
       "id": 4,
@@ -29,6 +36,8 @@
       "company": "Google LLC",
       "location": "Dhaka, Bangladesh",
       "salary": "100K - 150K",
-      "image": "../public/Logo/google-1-1 1.png"
+      "workPlace": "Remote",
+      "time": "Fulltime",
+      "image": "https://i.ibb.co/547Q1Cb/google-1-1-1.png.png"
     }
   ]

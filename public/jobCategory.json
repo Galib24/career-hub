@@ -3,25 +3,25 @@
       "id": 1,
       "jobTitle": "Account & Finance",
      "Available": "300 Jobs Available",
-      "image": "./Icons/accounts 1.png"
+      "image": "https://i.ibb.co/ZSwQrTZ/accounts-1.png"
     },
    {
       "id": 2,
       "jobTitle": "Graphics Design",
      "Available": "100+ Jobs Available",
-      "image": "./Icons/business 1.png"
+      "image": "https://i.ibb.co/dByHkKx/business-1.png"
     },
   {
       "id": 3,
       "jobTitle": "Marketing & Sales",
      "Available": "150 Jobs Available",
-      "image": "./Icons/social-media 1.png"
+      "image": "https://i.ibb.co/x8kSgTQ/social-media-1.png"
     },
   {
       "id": 4,
       "jobTitle": "Engineering Job",
      "Available": "224 Jobs Available",
-      "image": "./Icons/chip 1.png"
+      "image": "https://i.ibb.co/LNZ5FHs/chip-1.png"
     }
   ]
   
