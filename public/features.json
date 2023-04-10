@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "jobTitle": "Technical Database Engineer",
+      "company": "Google LLC",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100K - 150K",
+      "image": "../public/Logo/google-1-1 1-1.png"
+    },
+    {
+      "id": 2,
+      "jobTitle": "Senior Product Designer",
+      "company": "Netflix",
+      "location": "Dhaka, Bangladesh",
+      "salary": " 100K - 150K",
+      "image": "../public/Logo/netflix-4 1.png"
+    },
+    {
+      "id": 3,
+      "jobTitle": "Software Engineer",
+      "company": "Tesla",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100K - 150K",
+      "image": "../public/Logo/tesla-9 1.png"
+    },
+    {
+      "id": 4,
+      "jobTitle": "Technical Database Engineer",
+      "company": "Google LLC",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100K - 150K",
+      "image": "../public/Logo/google-1-1 1.png"
+    }
+  ]
