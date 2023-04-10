@@ -39,7 +39,7 @@ const Home = () => {
                 <section className='text-center mt-5'>
                     <h2>Job Category List</h2>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <div className='row row-cols-auto sm:g-2 mt-5 '>
+                    <div className='row row-cols-auto sm:g-2 mt-3 '>
                         {
                             JobCatagories.map(JobCategory => <SingleCategory
                                 key={JobCategory.id}
@@ -51,12 +51,12 @@ const Home = () => {
                     </div>
                 </section>
                 <section className='text-center mt-5'>
-                    <h2>Job Category List</h2>
+                    <h2>Featured Jobs</h2>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </section>
                 {/* third section */}
                 <section>
-                    <div className=' row row-cols-2 mt-5'>
+                    <div className=' row row-cols-2 mt-3'>
                         {
                             features.map(feature => <SingleFeature
                                 key={feature.id}
