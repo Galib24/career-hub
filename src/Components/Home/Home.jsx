@@ -6,6 +6,7 @@ import SingleFeature from '../SingleFeature/SingleFeature';
 const Home = () => {
     const JobCatagories = useLoaderData();
     // console.log(JobCatagories);
+    
 
     const [features, setFeatures] = useState([])
     useEffect(() => {
@@ -39,7 +40,7 @@ const Home = () => {
                 <section className='text-center mt-5'>
                     <h2>Job Category List</h2>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <div className='row row-cols-auto sm:g-2 mt-3 '>
+                    <div className='row row-cols-auto g-4 mt-3 '>
                         {
                             JobCatagories.map(JobCategory => <SingleCategory
                                 key={JobCategory.id}
@@ -56,7 +57,7 @@ const Home = () => {
                 </section>
                 {/* third section */}
                 <section>
-                    <div className=' row row-cols-2 mt-3'>
+                    <div className=' row row-cols-md-2 mt-3 ms-5 g-3'>
                         {
                             features.map(feature => <SingleFeature
                                 key={feature.id}

@@ -3,8 +3,10 @@ import { Button, Card } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { BeakerIcon } from '@heroicons/react/24/solid'
+import { useNavigate } from 'react-router-dom';
 const SingleFeature = ({ feature }) => {
-    console.log(feature);
+    // console.log(feature); 
+    const navigate = useNavigate()
     const { id, image, workPlace, time, jobTitle, location, salary } = feature;
     return (
         <div>
@@ -40,7 +42,7 @@ const SingleFeature = ({ feature }) => {
                                     <Card.Text>{salary}
                                     </Card.Text>
                                 </div>
-                                <Button style={{ backgroundColor: '#7E90FE',marginTop: '20px' }}>View Details</Button>
+                                <Button onClick={()=>navigate('viewDetails')} style={{ backgroundColor: '#7E90FE',marginTop: '20px' }}>View Details</Button>
                             </Card.Body>
                         </Card>
                     </Col>
