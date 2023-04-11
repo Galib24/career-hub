@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "jobTitle": "Software Engineer",
+        "jobTitle": "Technical Database Engineer",
         "company": "Google",
         "Phone": "01750-00 00 00",
         "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface. ",
@@ -14,7 +14,7 @@
     },
     {
         "id": 2,
-        "jobTitle": "Software Engineer",
+        "jobTitle": "Senior Product Designerr",
         "company": "Netflix",
         "Phone": "01750-04 00 00",
         "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface. ",
@@ -40,7 +40,7 @@
     },
     {
         "id": 4,
-        "jobTitle": "Software Engineer",
+        "jobTitle": "Technical Database Engineer",
         "company": "Google",
         "Phone": "01750-00 00 06",
         "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface. ",
