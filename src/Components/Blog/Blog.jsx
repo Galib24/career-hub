@@ -7,7 +7,7 @@ const Blog = () => {
             <h2 className='text-center mb-5' style={{color: '#7E90FE'}}>This is blogs Section</h2>
             {/* card section */}
 
-            <section className='container d-flex gap-5'>
+            <section className='justify-content-center row row-col-sm-1 row-cols-md-auto gap-4'>
                 <Card style={{ width: '18rem' }}>
                     <Card.Body>
                         <Card.Title>First Question Answer</Card.Title>
@@ -25,7 +25,7 @@ const Blog = () => {
                 <Card style={{ width: '18rem' }}>
                     <Card.Body>
                         <Card.Title>Third Question Answer</Card.Title>
-                        <Card.Text> <strong>useRef: </strong> useRef(initialValue) is a built-in React hook that accepts one argument as the initial value and returns a reference (aka ref). </Card.Text>
+                        <Card.Text> <strong>useRef:</strong> useRef(initialValue) is a built-in React hook that accepts one argument as the initial value and returns a reference (aka ref). </Card.Text>
                     </Card.Body>
                 </Card>
             

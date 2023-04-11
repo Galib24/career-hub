@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import { BeakerIcon } from '@heroicons/react/24/solid'
+import { BeakerIcon } from '@heroicons/react/24/solid' 
 import { useNavigate } from 'react-router-dom';
 const SingleFeature = ({ feature }) => {
     // console.log(feature); 
