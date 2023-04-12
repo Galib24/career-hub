@@ -10,7 +10,9 @@
         "Experiences": "2-3 Years in this field.",
         "location": "Dhaka, Bangladesh",
         "salary": "100K - 150K",
-        "email":"google@gmail.com"
+        "email":"google@gmail.com",
+        "image": "https://i.ibb.co/vZ2kbkg/google-1-1-1-1.png",
+        "workPlace": "Remote"
     },
     {
         "id": 2,
@@ -23,7 +25,9 @@
         "Experiences": "2-3 Years in this field.",
         "location": "Dhaka, Bangladesh",
         "salary": "100K - 150K",
-        "email":"google@gmail.com"
+        "email":"google@gmail.com",
+        "image": "https://i.ibb.co/Fb6wThz/netflix-4-1.png",
+        "workPlace": "Onsite"
     },
     {
         "id": 3,
@@ -36,7 +40,9 @@
         "Experiences": "2-3 Years in this field.",
         "location": "Dhaka, Bangladesh",
         "salary": "100K - 150K",
-        "email":"google@gmail.com"
+        "email":"google@gmail.com",
+        "image": "https://i.ibb.co/0fZ8Mgn/tesla-9-1.png",
+        "workPlace": "Onsite"
     },
     {
         "id": 4,
@@ -49,6 +55,8 @@
         "Experiences": "2-3 Years in this field.",
         "location": "Dhaka, Bangladesh",
         "salary": "100K - 150K",
-        "email":"google@gmail.com"
+        "email":"google@gmail.com",
+        "image": "https://i.ibb.co/547Q1Cb/google-1-1-1.png.png",
+        "workPlace": "Fulltime"
     }
 ]

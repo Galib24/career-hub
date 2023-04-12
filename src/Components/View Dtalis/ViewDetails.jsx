@@ -1,9 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addToDb } from '../../utils/fakeDB';
 
 
 const ViewDetails = () => {
+
+/*
+apply operation
+**/ 
+
+const handleAddToCart = id =>{
+    // console.log(id);
+    addToDb(id);
+}
+
+
     const { detailsId } = useParams();
     // console.log(dynamic.detailsId);
     // const [details,setDetails] =  useState([]);
@@ -22,8 +34,10 @@ const ViewDetails = () => {
             setJobDetails(detailsData);
         }
     }, [])
+    const {id} = jobDetails;
     return (
         <div>
+            
             <div className='text-center mt-5'>
                 <h2>Job Details</h2>
             </div>
@@ -55,7 +69,7 @@ const ViewDetails = () => {
                             <p><small><strong>Address: </strong> {jobDetails.location}</small></p>
                             <br />
 
-                            <Button style={{ backgroundColor: '#7E90FE' }} className='mx-4'>Apply Now</Button>
+                            <Button onClick={()=>handleAddToCart(id)} style={{ backgroundColor: '#7E90FE' }} className='mx-4'>Apply Now</Button>
 
                         </Card.Body>
                     </Card>
