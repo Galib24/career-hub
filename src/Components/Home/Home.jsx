@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingleCategory from '../SingleCategory/SingleCategory';
 import SingleFeature from '../SingleFeature/SingleFeature';
+import { Button } from 'react-bootstrap';
 
 const Home = () => {
     const JobCatagories = useLoaderData();
@@ -66,6 +67,10 @@ const Home = () => {
 
                             </SingleFeature>)
                         }
+                        
+                    </div>
+                    <div style={{marginRight:'200px'}} className='text-center'>
+                    <Button style={{backgroundColor: '#7E90FE'}}>See All Jobs</Button>
                     </div>
                 </section>
 

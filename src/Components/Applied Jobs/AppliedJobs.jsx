@@ -25,8 +25,10 @@ console.log(cart);
 
     return (
         <div>
-            <h2>this is applied jobs:</h2>
-<div>
+            <div style={{color:'#7E90FE'}} className='text-center'>
+            <h2 >This is Applied Jobs</h2>
+            </div>
+<div className=' row row-cols-auto g-4 mt-5'>
     {
         cart.map(dt => <CardApply
         key={dt.id}
