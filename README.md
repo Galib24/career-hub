@@ -11,4 +11,4 @@ resources -> [ImgBB](https://imgbb.com/)
 GitHub Repo -> [Link](https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-Galib24)
 
 ## complete project Live link
-Hosted in Netlify -> [CareersPoint]()
+Hosted in Netlify -> [CareersPoint](https://cheerful-pavlova-319605.netlify.app)
